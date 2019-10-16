@@ -2,7 +2,7 @@
 
 ## Issues
 
-Please open an issue related to your work. Add the label `c/firebase2graphql`.
+Please open an issue related to your work.
 
 ## Local developmet
 

@@ -1,13 +1,13 @@
 {
   "name": "firebase2graphql",
   "description": "A CLI tool to get GraphQL over Firebase data dump",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Hasura",
   "bin": {
     "firebase2graphql": "./bin/run",
     "f2g": "./bin/run"
   },
-  "bugs": "https://github.com/hasura/graphql-engine/issues?q=is%3Aissue+is%3Aopen+label%3Ac%2Ffirebase2graphql",
+  "bugs": "https://github.com/hasura/firebase2graphql/issues",
   "dependencies": {
     "@oclif/command": "^1.4.35",
     "@oclif/config": "^1.6.33",
@@ -32,21 +32,22 @@
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/wawhal/graphql-engine/tree/master/community/tools/firebase2graphql",
+  "homepage": "https://github.com/hasura/firebase2graphql",
   "keywords": [
     "oclif",
     "cli",
     "graphql",
     "grapql-engine",
     "json",
-    "firebase"
+    "firebase",
+    "rtdb"
   ],
   "license": "MIT",
   "main": "src/command.js",
   "oclif": {
     "bin": "firebase2graphql"
   },
-  "repository": "hasura/graphql-engine",
+  "repository": "hasura/firebase2graphql",
   "scripts": {
     "eslint": "eslint .",
     "eslintfix": "eslint . --fix",
